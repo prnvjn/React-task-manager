@@ -1,9 +1,9 @@
 import {useState} from 'react'
 
 const AddTask = ({onAdd}) => {
-    let [text,setText]=useState('')
-    let [day,setDay]=useState('')
-    let [reminder,setReminder]=useState(false)
+    const [text,setText]=useState('')
+    const [day,setDay]=useState('')
+    const [reminder,setReminder]=useState(false)
     const onSubmit = (e) => {
          e.preventDefault()
          if(!text){

@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "text": "Create react app",
+      "day": "on friday",
+      "reminder": false,
+      "id": 1
+    },
+    {
+      "text": "Work on odin ",
+      "day": "saturday ",
+      "reminder": true,
+      "id": 2
+    }
+  ]
+}
